@@ -16,7 +16,7 @@ public class AppTest extends TestCase
     {
     	super(testName);
     	double result=App.calculateSimpleInterest(10000,5,7);
-    	Assert.assertEquals("Test failed. ",35000.0,result); 
+    	Assert.assertEquals("Test failed. ",350000.0,result); 
     }
 
     /**
